@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav a {
+    color: #34495E;
+    font-weight: 800;
+    font-size: 18px;
+    transition: color 0.3s ease;
+
+    a&:hover {
+        color: #1C64F2;
+    }
+}
